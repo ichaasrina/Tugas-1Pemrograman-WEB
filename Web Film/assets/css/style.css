@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    background-color: #2d2d2d;
+}
+header {
+    background: url('../Images/bg/main.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex ;
+    color: white;
+    flex-direction: column;
+}
+header div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header div h3 {
+    background-color: rgb(158, 106, 9);
+    padding: 5px;
+    border-radius: 10px;
+}
+nav {
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+}
+nav h1 {
+    font-weight: bold;
+    border: 2px solid white; 
+    border-radius: 7px;
+    padding: 5px;
+    margin: 10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: tomato;
+    text-decoration: underline  ;
+} 
+.superhero {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+ .superhero .card img {
+    width: 200px;
+ }
+ .superhero .card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+ }
+ .superhero .card button {
+    background-color: orange;
+    padding: 5px;
+    border: none;
+ }
+ section h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+ }
+
+ footer {
+    width: 100%;
+    height: 20px;
+    background-color: orange;
+    color: white;
+    padding: 90px;
+    text-align: center;
+ }
+ .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+ }
+  .deskripsi {
+    margin: 20px auto;
+  width: 60%;
+  min-width: 500px;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #222;
+  border-radius: 20px;
+  padding: 30px 30px 60px 30px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  font-size: 1.1em;  font-weight:500;}
+/* ini pertengahan  */
+header div h3 {
+    background-color: rgb(158, 106, 9);
+    padding: 5px;
+    border-radius: 10px;
+}
+nav h1 {
+    font-weight: bold;
+    border: 2px solid white; 
+    border-radius: 7px;
+    padding: 5px;
+    margin: 10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: underline;
+}
+nav ul li a:hover {
+    color: tomato;
+    text-decoration: underline  ;
+} 
+.trending {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+ .trending .card img {
+    width: 200px;
+ }
+ .trending .card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+ }
+  .trending .card button {
+    background-color: orange;
+    padding: 5px;
+    border: none;
+ }
+ section h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+ }
+
+ footer {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 30px;
+    text-align: center;
+ }
+
+ section div button a {
+    text-decoration: black;
+ }
+ .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+ }
+  .deskripsi {
+    margin: 20px auto;
+  width: 60%;
+  min-width: 500px;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #222;
+  border-radius: 20px;
+  padding: 30px 30px 60px 30px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  font-size: 1.1em;  font-weight:500;}
